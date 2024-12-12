@@ -1,0 +1,54 @@
+version: 4.1.30
+steps:
+  - prompt: Locate the main navigation menu at the top of the page.
+    commands:
+      - command: hover-text
+        text: Latest
+        description: main navigation menu at the top of the page
+        action: hover
+  - prompt: Click each menu item one by one.
+    commands:
+      - command: hover-text
+        text: ACCEPT ALL
+        description: accept all cookies button
+        action: click
+      - command: hover-text
+        text: Latest
+        description: latest menu item
+        action: click
+      - command: hover-text
+        text: Video
+        description: video menu item
+        action: click
+      - command: hover-text
+        text: F1 Unlocked
+        description: F1 unlocked menu item
+        action: click
+      - command: hover-text
+        text: Schedule
+        description: schedule menu item
+        action: click
+      - command: hover-text
+        text: Results
+        description: results menu item
+        action: click
+      - command: hover-text
+        text: Drivers
+        description: drivers menu item
+        action: click
+      - command: hover-text
+        text: Teams
+        description: teams menu item
+        action: click
+      - command: hover-text
+        text: Gaming
+        description: gaming menu item
+        action: click
+      - command: hover-text
+        text: Live Timing
+        description: live timing menu item
+        action: click
+      - command: hover-text
+        text: X
+        description: close button on the pop-up
+        action: click

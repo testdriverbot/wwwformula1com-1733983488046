@@ -1,0 +1,14 @@
+version: 4.1.30
+steps:
+  - prompt: Load the website in the browser.
+    commands:
+      - command: hover-text
+        text: ACCEPT ALL
+        description: accept all cookies button in the cookie consent dialog
+        action: click
+  - prompt: >-
+      Assert that the F1 logo is displayed at the top of the page.  # Use the
+      content of the file from the environment
+    commands:
+      - command: assert
+        expect: the F1 logo is displayed at the top of the page

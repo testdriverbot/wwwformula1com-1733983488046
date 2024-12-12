@@ -1,0 +1,13 @@
+version: 4.1.30
+steps:
+  - prompt: Locate the "Accept All" button in the cookies consent popup.
+    commands:
+      - command: hover-text
+        text: ACCEPT ALL
+        description: accept all button in the cookies consent popup
+        action: click
+  - prompt: Click the "Accept All" button.
+    commands:
+      - command: scroll-until-text
+        text: Accept All
+        direction: down

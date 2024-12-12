@@ -1,0 +1,11 @@
+version: 4.1.30
+steps:
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: hover-text
+        text: ACCEPT ALL
+        description: accept all cookies button on the popup
+        action: click
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down

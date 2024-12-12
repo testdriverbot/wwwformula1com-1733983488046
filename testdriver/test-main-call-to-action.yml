@@ -1,0 +1,10 @@
+version: 4.1.30
+steps:
+  - prompt: >-
+      Identify the main call to action on the webpage  # Use the content of the
+      file from the environment
+    commands:
+      - command: hover-text
+        text: ACCEPT ALL
+        description: main call to action button in the cookie consent dialog
+        action: click
